@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Zeynab Jafari">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body dir="rtl" class=" ">
+    <!-- header -->
+    <header class="w-full fixed bg-zinc-50 z-50 ">
+        <div class="flex justify-center w-full">
+            <div class="w-full">
+                <div class="flex justify-center bg-gray-300 w-full h-8">
+                    <span class="text-black text-2xl  ">02156422885<i class="uil uil-phone-alt text-2xl   "></i></span>
+                </div>
+        
+                <div class="flex justify-center pt-4">
+                    <div class="w-10/12">
+                        <div class="flex justify-between     ">
+                            <div >
+                                <a href="#"><img src="../photos/logo-1.png" alt="" class="w-48     "></a>
+                            </div>
+                            <div class="w-8/12 pt-4 px-6 ">
+                                <input type="search" placeholder="جستجوی محصولات" name="" id="" class="text-base text-zinc-900 w-11/12 border-slate-200 border-2 p-2.5 rounded-b-md rounded-r-md ">
+                                <i class="uil uil-search bg-red-600 text-slate-50 text-2xl rounded-b-md rounded-l-md top-16 left-88 absolute p-2 px-4 "></i>
+                            </div>
+                            <div class="pt-6 ">
+                                <i class="uil uil-user text-2xl "></i>
+                                <i class="uil uil-arrow-random text-2xl px-2 "></i>
+                                <i class="uil uil-heart text-2xl "></i>
+                                <i class="uil uil-shopping-cart text-2xl px-2   "></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="w-full bg-stone-700 flex justify-center mt-4 ">
+            <div class=" w-10/12">
+                <ul class="w-5/12 grid grid-cols-5  items-center py-3 ">
+                    <li class="text-slate-50 "><a class="text-sm font-bold  border-red-600 border-b-2 pb-1" href="#">صفحه اصلی</a></li>
+                    <li class="text-slate-50 hover:text-gray-300 transition-all ease-in-out" mouse><a class="text-sm font-bold hover:border-red-600 hover:border-b-2 hover:pb-1 hover:transition-all hover:ease-in-out" href="#" id="hover-needed nav-list" onmouseenter="removeClassName()" id="hidden"  >محصولات<i class="uil uil-angle-down"></i></a></li>
+                    <li class="text-slate-50 hover:text-gray-300 transition-all ease-in-out "><a class="text-sm font-bold hover:border-red-600 hover:border-b-2 hover:transition-all hover:pb-1 hover:ease-in-out" href="#">تماس با ما</a></li>
+                    <li class="text-slate-50  hover:text-gray-300 transition-all ease-in-out"><a class="text-sm font-bold hover:border-red-600 hover:border-b-2 hover:pb-1 hover:transition-all hover:ease-in-out" href="#">درباره ما</a></li>
+                    <li class="text-slate-50 hover:text-gray-300 transition-all ease-in-out "><a class="text-sm font-bold hover:transition-all hover:ease-in-out hover:border-red-600 hover:border-b-2 hover:pb-1" href="#">چگونه اعتماد کنیم؟</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="div-container w-full bg-slate-50 flex justify-start pt-16 pb-12 pr-28 hidden  li-list"  onmouseleave="addClassName()" id="hidden">
+            <ul class=" text-gray-500 text-sm w-80">
+                <h4 class="py-0.5"><a href="#" class="hover:text-red-600 text-lg text-black"><i class="uil uil-angle-left"></i>گوشی تلفن همراه</a></h4>
+                <li class="py-0.5"><a href="#" class="hover:text-red-600 ">گوشی های سامسونگ</a></li>
+                <li class="py-0.5"><a href="#" class="hover:text-red-600 ">گوشی های اپل</a></li>
+                <li class="py-0.5"><a href="#" class="hover:text-red-600 ">گوشی های شیاِومی</a></li>    
+                <li class="py-0.5"><a href="#" class="hover:text-red-600 ">گوشی های هوآوی</a></li>
+                <li class="py-0.5"><a href="#" class="hover:text-red-600 ">گوشی های نوکیا</a></li>
+                <li class="py-0.5"><a href="#" class="hover:text-red-600 ">گوشی های سونی</a></li>
+                <li class="py-0.5"><a href="#" class="hover:text-red-600 ">گوشی های وان پلاس</a></li>
+                <li class="py-0.5"><a href="#" class="hover:text-red-600 ">سایر برند های تلفن همراه</a></li>
+            </ul>
+            <ul class=" text-gray-500 text-sm w-80">
+                <h4 class="py-0.5"><a href="#" class="hover:text-red-600 text-lg text-black"><i class="uil uil-angle-left"></i>لوازم جانبی</a></h4>
+                <li class="py-0.5"><a href="#" class="hover:text-red-600">شارژر</a></li>
+                <li class="py-0.5"><a href="#" class="hover:text-red-600">هندفری</a></li>
+                <li class="py-0.5"><a href="#" class="hover:text-red-600">انواع قاب محافظ</a></li>
+                <li class="py-0.5"><a href="#" class="hover:text-red-600">انواع کابل</a></li>
+                <li class="py-0.5"><a href="#" class="hover:text-red-600">انواع گلس ضدخش</a></li>
+                <li class="py-0.5"><a href="#" class="hover:text-red-600">انواع تبدیل</a></li>
+                <li class="py-0.5"><a href="#" class="hover:text-red-600">اسپیکر</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- slider -->
+    <section class="w-full z-10">
+        <div class="flex justify-center apple-slide slide " >
+                <img src="../photos/bgslider-1.png" class="w-9/12 mt-80" alt="">
+                <div class=" absolute w-4/5 " id="slider">
+                    <div class=" mt-[190px] ">
+                        <img src="../photos/apple-iphone-13-pro-gold-02-550x550-1.png" class="float-left w-[500px] transition-opacity duration-500 ease-in  " alt="">
+                    </div>
+                    <div class="float-right w-96 top-[400px] absolute right-28">
+                        <h2 class="text-4xl font-bold text-slate-50">ارسال سریع به سراسر ایران</h2>
+                        <p class="text-lg pt-2 text-slate-50 text-thin">ارسال سریع و رایگان برای خرید های بالای 1 میلیون تومان</p>
+                        <button class="bg-red-700 mt-8 py-2 px-5 rounded-3xl text-xl font-bold text-slate-50 hover:bg-sky-600 hover:ease-in-out hover:transition-all hover:delay-75">خرید کن!</button>
+                    </div>
+                </div>
+        </div>
+
+        <div class="flex justify-center  samsung-slide hidden slide" >
+            <img src="../photos/bgslider-1.png" class="w-9/12  mt-80" alt="">
+            <div class=" absolute w-4/5 " id="slider">
+                <div class=" mt-[250px] ml-24 ">
+                    <img src="../photos/Untitled-1.png" class="float-left w-[400px] " alt="">
+                </div>
+                <div class="float-right w-96 top-[400px] absolute right-28 ">
+                    <h2 class="text-4xl font-bold text-slate-50">ارسال سریع به سراسر ایران</h2>
+                    <p class="text-lg pt-2 text-slate-50 text-thin">ارسال سریع و رایگان برای خرید های بالای 1 میلیون تومان</p>
+                    <button class="bg-orange-500 mt-8 py-2 px-5 rounded-3xl text-xl font-bold text-slate-50 hover:bg-sky-600 hover:ease-in-out hover:transition-all hover:delay-75">خرید کن!</button>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="prev" ><i class="uil uil-angle-left text-3xl text-slate-50 bg-gray-400 rounded-full float-left ml-12 absolute left-4 bottom-[300px] hover:bg-stone-900  "></i></a>
+        <a href="#" class="next"  ><i class="uil uil-angle-right text-3xl text-slate-50 bg-gray-400  rounded-full float-right mr-12 absolute bottom-[300px] right-4 hover:bg-stone-900  "></i></a>
+        <div class="flex justify-center pt-8">
+            <div class="w-20 h-8 flex justify-center  pt-4">
+                <a href="#" ><input type="radio" class="cursor-pointer mx-1 accent-red-600 prev-input" name="slider"  checked="true"  ></a>
+                <a href="#" ><input type="radio" class="cursor-pointer mx-1 accent-red-600 next-input" name="slider"  ></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- suggested items -->
+    <section class=" mt-20 w-full  ">
+        <div class="flex justify-center w-full bg-stone-700 h-96 ">
+            <div class="w-10/12 pt-4 ">
+                <div class="w-full grid grid-cols-5 scroll-smooth">
+                    <div class="w-40">
+                        <h5 class="text-4xl text-gray-200 pt-16 leading-relaxed w-44">پیشنهاد ویژه شگفت انگیز</h5>
+                        <button class="bg-stone-700 border-gray-200 border-2 rounded-xl mt-4 text-lg text-slate-50 pb-2 pt-2 hover:border-zinc-50 pr-4 ">مشاهده همه<i class="uil uil-angle-left pl-4 "></i></button>
+                    </div>
+
+                    <div class="bg-zinc-50 w-52 mt-8 rounded-2xl h-[300px]">
+                        <span class="bg-red-600 text-slate-50 px-3 py-1 z-30  top-40 right-2 rounded-2xl mt-[675px] absolute mr-[355px] text-sm">5%-</span>
+                        <div class="flex justify-center">
+                            <img src="../photos/3-5-plzmsyuheg5f8efyu9wdvsosj08mhqd76eyfge5vw8.jpg" class=" cursor-pointer w-44 z-10 pt-6 rounded-t-md rounded-r-md transition-all ease-in-out hover:scale-110 duration-1000  " onmouseover="src='../photos/1-5-plzmsv34n409xylfg89vltmy5gr5mxy9twchjabgl4.jpg' " onmouseout="src='../photos/3-5-plzmsyuheg5f8efyu9wdvsosj08mhqd76eyfge5vw8.jpg' "   alt="">
+                        </div>
+                        <div class="p-4  " onmouseover="show()" onmouseout="hide()">
+                            <a href="#"><h3 class="capitalize hover:text-gray-400 text-sm font-sans"     >samsung galaxy a03 core</h3></a>
+                            <a href="#"><h3 class="hover:text-gray-400 text-sm ">سامسونگ ای 03 کور</h3></a>
+                            <div class="flex flex-start">
+                                <p class="line-through text-xs text-gray-400 pl-2">2,000,000</p>
+                                <p class="text-red-600 text-sm font-bold">1,900,000 تومان</p>
+                            </div>
+                        </div >
+                    </div>
+
+                    <div class="bg-zinc-50 w-52 mt-8 rounded-2xl h-[300px]">
+                        <span class="bg-red-600 text-slate-50 px-3 py-1 z-30  top-40 right-2 rounded-2xl mt-[675px] absolute mr-[595px] text-sm">5%-</span>
+                        <div class="flex justify-center">
+                            <img src="../photos/4-4-plzlrbf7ncly6p4sp00d0aq3xdtc66w9c289fdzl4o.jpg" onmouseover="src='../photos/1-4-plzlr4ucbicxxfecrf5z0udvroprob64z5nv2g9cc8.jpg' " onmouseout="src='../photos/4-4-plzlrbf7ncly6p4sp00d0aq3xdtc66w9c289fdzl4o.jpg' "  class="transition-all duration-1000 hover:scale-110 ease-in-out cursor-pointer w-44 z-10 pt-6 rounded-t-md rounded-r-md" alt="">
+                        </div>
+                        <div class="p-4 "  >
+                            <a href="#"><h3 class="capitalize hover:text-gray-400 text-sm font-sans">samsung galaxy a03 s</h3></a>
+                            <a href="#"><h3 class="hover:text-gray-400 text-sm">  32GB سامسونگ ای 03 اس </h3></a>
+                            <div class="flex flex-start">
+                                <p class="line-through text-xs text-gray-400 pl-2">2,000,000</p>
+                                <p class="text-red-600 text-sm font-bold">1,900,000 تومان</p>
+                            </div>
+                        </div >
+                        
+                    </div>
+
+                    <div class="bg-zinc-50 w-52 mt-8 rounded-2xl h-[300px]">
+                        <span class="bg-red-600 text-slate-50 px-3 py-1 z-30  top-40 right-2 rounded-2xl mt-[675px] absolute mr-[830px] text-sm">5%-</span>
+                        <div class="flex justify-center">
+                            <img src="../photos/5-3-plzkq23iqrlrz5959e7qo77c8jgk23zajnadlj8drs.jpg" onmouseover="src='../photos/1-3-plzkpsp4uf8wr1mssa5gz9kqaoqvx4xz6crisrmbi0.jpg'" onmouseout="src='../photos/5-3-plzkq23iqrlrz5959e7qo77c8jgk23zajnadlj8drs.jpg'"   class="transition-all ease-in-out hover:scale-110 duration-1000     cursor-pointer w-44 z-10 pt-6 rounded-t-md rounded-r-md" alt="">
+                        </div>
+                        <div class="p-4 hover:[.icon-container:block]">
+                            <a href="#"><h3 class="capitalize hover:text-gray-400 text-sm font-sans">POCO x3 pro 256GB</h3></a>
+                            <a href="#"><h3 class="hover:text-gray-400 text-sm">  ایکس 3 256GB </h3></a>
+                            <div class="flex flex-start">
+                                <p class="line-through text-xs text-gray-400 pl-2">2,000,000</p>
+                                <p class="text-red-600 text-sm font-bold">1,900,000 تومان</p>
+                            </div>
+                        </div >
+                    </div>
+
+                    <div class="bg-zinc-50 w-52 mt-8 rounded-2xl h-[300px]">
+                        <span class="bg-red-600 text-slate-50 px-3 py-1 z-30  top-40 right-2 rounded-2xl mt-[675px] absolute mr-[1065px] text-sm">3%-</span>
+                        <div class="flex justify-center">
+                            <img src="../photos/4-2-plzjv0hf0r3uiscjjh4btj89xeh4tzqfxzm1zj9ha0.jpg" onmouseover="src='../photos/1-2-plzjuuudvqw4l4kqgeokeknid38xjt41x7p53vhubc.jpg'" onmouseout="src='../photos/4-2-plzjv0hf0r3uiscjjh4btj89xeh4tzqfxzm1zj9ha0.jpg'"   class="hover:scale-110 transition-all ease-in-out duration-1000    cursor-pointer w-44 z-10 pt-6 rounded-t-md rounded-r-md" alt="">
+                        </div>
+                        <div class="p-4 hover:[.icon-container:block]">
+                            <a href="#"><h3 class="capitalize hover:text-gray-400 text-sm font-sans">samsung galaxy a03 core</h3></a>
+                            <a href="#"><h3 class="hover:text-gray-400 text-sm ">  128GB سامسونگ گلکسی ای </h3></a>
+                            <div class="flex flex-start">
+                                <p class="line-through text-xs text-gray-400 pl-2">2,000,000</p>
+                                <p class="text-red-600 text-sm font-bold">1,950,000 تومان</p>
+                            </div>
+                        </div >
+                    </div>
+
+                    <!-- <div class="bg-zinc-50 w-52 mt-8 rounded-2xl h-[300px]">
+                        <span class="bg-red-600 text-slate-50 px-3 py-1 z-30  top-40 right-2 rounded-2xl mt-[675px] absolute mr-[1065px] text-sm">3%-</span>
+                        <div class="flex justify-center">
+                            <img src="../photos/4-2-plzjv0hf0r3uiscjjh4btj89xeh4tzqfxzm1zj9ha0.jpg" class="hover:[bg-[url('/photos/1-5-plzmsv34n409xylfg89vltmy5gr5mxy9twchjabgl4.jpg')]] cursor-pointer w-44 z-10 pt-6 rounded-t-md rounded-r-md" alt="">
+                        </div>
+                        <div class="p-4 hover:[.icon-container:block]">
+                            <a href="#"><h3 class="capitalize hover:text-gray-400 text-sm">samsung galaxy a12 64GB</h3></a>
+                            <a href="#"><h3 class="hover:text-gray-400 text-sm">  سامسونگ گلکسی ای 12 64GB   </h3></a>
+                            <div class="flex flex-start">
+                                <p class="line-through text-xs text-gray-400 pl-2">2,000,000</p>
+                                <p class="text-red-600 text-sm font-bold">1,950,000 تومان</p>
+                            </div>
+                        </div >
+                        <div class="icon-container grid grid-rows-4 bg-slate-50 absolute z-30 left-[155px] top-[830px] px-4 ">
+                            <i class="uil uil-shopping-cart text-2xl py-2"></i>
+                            <i class="uil uil-search text-2xl py-2"></i>
+                            <i class="uil uil-arrow-random text-2xl py-2"></i>
+                            <i class="uil uil-heart text-2xl py-2"></i>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="bg-zinc-50 w-52 mt-8 rounded-2xl h-[300px]">
+                        <span class="bg-red-600 text-slate-50 px-3 py-1 z-30  top-40 right-2 rounded-2xl mt-[675px] absolute mr-[1065px] text-sm">3%-</span>
+                        <div class="flex justify-center">
+                            <img src="../photos/4-2-plzjv0hf0r3uiscjjh4btj89xeh4tzqfxzm1zj9ha0.jpg" class="hover:[bg-[url('/photos/1-5-plzmsv34n409xylfg89vltmy5gr5mxy9twchjabgl4.jpg')]] cursor-pointer w-44 z-10 pt-6 rounded-t-md rounded-r-md" alt="">
+                        </div>
+                        <div class="p-4 hover:[.icon-container:block]">
+                            <a href="#"><h3 class="capitalize hover:text-gray-400 text-sm">samsung galaxy a32</h3></a>
+                            <a href="#"><h3 class="hover:text-gray-400 text-sm">سامسونگ گلکسی ای 32 4 جی    </h3></a>
+                            <div class="flex flex-start">
+                                <p class="line-through text-xs text-gray-400 pl-2">2,000,000</p>
+                                <p class="text-red-600 text-sm font-bold">1,950,000 تومان</p>
+                            </div>
+                        </div >
+                        <div class="icon-container grid grid-rows-4 bg-slate-50 absolute z-30 left-[155px] top-[830px] px-4 ">
+                            <i class="uil uil-shopping-cart text-2xl py-2"></i>
+                            <i class="uil uil-search text-2xl py-2"></i>
+                            <i class="uil uil-arrow-random text-2xl py-2"></i>
+                            <i class="uil uil-heart text-2xl py-2"></i>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- categories -->
+    <section class=" bg-red-600 h-[250px]">
+        <div class="flex justify-center">
+            <div class="w-10/12">
+                <div class="w-full">
+                    <h4 class="text-slate-50 text-lg float-right pt-8">دسته بندی محصولات</h4><hr class="border-zinc-300 float-left w-[1030px] mt-12">
+                    <div class="grid grid-cols-3 gap-2 w-full pt-10 items-center">
+                        <div class="">
+                            <a href="#">
+                                <img src="../photos/ad-1.jpg" alt="" class="w-[380px] rounded-2xl   z-10  ">
+                            </a>
+                            <div class="absolute border-4 border-zinc-50 w-[340px] h-[180px] top-[1281px] right-[139px]">
+                                <div class="relative float-left pt-8 pl-4">
+                                    <p class="text-gray-600 font-thin text-sm">فروش ویژه</p>
+                                    <h5 class="pb-4">گوشی هوآووی</h5>
+                                    <button class="bg-red-600 px-3 py-2 hover:bg-red-700 rounded-lg text-xs transition-all ease-in-out text-zinc-50 " >خرید کنید</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <a href="#">
+                                <img src="../photos/ad-2.jpg" alt="" class="w-[380px] rounded-2xl">
+                            </a>
+                            <div class="absolute border-4 border-zinc-50 top-[1281px] w-[340px] h-[180px] right-[536px]  ">
+                                <div class="float-left pt-8 pl-4 ">
+                                    <p> شارژر-هندزفری</p>
+                                    <h5 class="pb-4"> لوازم جانبی</h5>
+                                    <button class="bg-red-600 px-3 py-2 transition-all ease-in-out hover:bg-red-700 rounded-lg text-xs text-zinc-50 ">خرید کنید</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <a href="#">
+                                <img src="../photos/ad-3.jpg" alt="" class="w-[380px] rounded-2xl">
+                            </a>
+                            <div class="absolute border-4 border-zinc-50 top-[1281px] left-[149px] w-[340px] h-[180px]  ">
+                                <div class="float-left pt-8 pl-4">
+                                    <p>فروش ویژه</p>
+                                    <h5 class="pb-4"> پاور بانک</h5>
+                                    <button class="bg-red-600 px-3 transition-all py-2 ease-in-out hover:bg-red-700 rounded-lg text-xs text-zinc-50">خرید کنید</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- brands -->
+    <section class="flex justify-center h-[950px] mt-48">
+        <div class="w-10/12">
+            <!-- apple -->
+            <div class="w-full grid grid-rows-2 gap-0">
+                <div class="w-full flex flex-start">
+                    <img src="../photos/apple-piystm2msc3nsgdqultpost39dqw35sd05u50f8l1s.jpg" class="" alt="">
+                    <h4 class="uppercase text-2xl font-sans pr-6 pt-2 ">apple</h4>
+                    <a href="#"><p class="text-base pt-3 pl-4 pr-8 hover:text-red-600">گوشی</p></a>
+                    <a href="#"><p class="text-base px-4 pt-3 hover:text-red-600">ایرپاد</p></a>
+                    <a href="#"><p class="pt-3 text-base px-4 hover:text-red-600">ساعت</p></a>
+                </div>
+                <div class="flex flex-start mt-2">
+                    <hr class="w-[12%] border-red-600 border-2 float-right">
+                    <hr class="w-[88%] border-gray-200 border-1.5 float-left ">
+                </div>
+            </div>
+
+            <!-- samsung -->
+            <div class="w-full grid grid-rows-2 gap-0 mt-36">
+                <div class="w-full flex flex-start">
+                    <img src="../photos/sumsong-piyt0osw8fsd6s3qj5xlyij08svd14vmb6mq2eqw7k.jpg" class="" alt="">
+                    <h4 class="uppercase text-2xl font-sans pr-6 pt-2">samsung</h4>
+                    <a href="#"><p class="text-base pt-3 pl-4 pr-8 hover:text-red-600">گوشی</p></a>
+                    <a href="#"><p class="text-base px-4 pt-3 hover:text-red-600">ایرپاد</p></a>
+                    <a href="#"><p class="pt-3 text-base px-4 hover:text-red-600">ساعت</p></a>
+                </div>
+                <div class="flex flex-start mt-2">
+                    <hr class="w-[15%] border-red-600 border-2 float-right">
+                    <hr class="w-[85%] border-gray-200 border-1.5 float-left ">
+                </div>
+            </div>
+            <div class="flex justify-between">
+                <div class="border-gray-100 rounded-2xl w-[285px] h-[370px] border-2">
+                    <div>
+                        <img src="../photos/Samsung-Galaxy-A03s-64GB-1-1024x1024.jpg" onmouseover="src='../photos/Samsung-Galaxy-A03s-64GB-1-1024x1024.jpg'" onmouseout="src='../photos/Samsung-Galaxy-A03s-64GB-1-1024x1024.jpg'" class="cursor-pointer w-60 m-auto pt-4 transition-all ease-in-out hover:scale-110 duration-1000 " alt="">
+                    </div>
+                    <div class="px-4 pt-8">
+                        <a href="#"><h3 class="font-sans text-sm capitalize hover:text-gray-500">samsung galaxy a03S 64GB</h3></a>
+                        <a href="#"><h3 class="text-sm hover:text-gray-500">سامسونگ گلکسی ای 03 اس 64 گیگابایت</h3></a>
+                        <p class="text-sm text-red-600">3,660,000 تومان - 3,690,000 تومان</p>
+                    </div>
+                </div>
+
+                <div class="border-gray-100 rounded-2xl w-[285px] h-[370px] border-2">
+                    <div>
+                        <img src="../photos/Samsung-Galaxy-A11-6-1024x1024.jpg" onmouseover="src='../photos/Samsung-Galaxy-A11-1-1024x1024.jpg'" onmouseout="src='../photos/Samsung-Galaxy-A11-6-1024x1024.jpg'" class="cursor-pointer w-60 m-auto pt-4 transition-all ease-in-out hover:scale-110 duration-1000 " alt="">
+                    </div>
+                    <div class="px-4 pt-8">
+                        <a href="#"><h3 class="font-sans text-sm capitalize hover:text-gray-500">samsung galaxy a11 32GB</h3></a>
+                        <a href="#"><h3 class="text-sm hover:text-gray-500">سامسونگ  ای 11  32 گیگابایت</h3></a>
+                        <p class="text-sm text-red-600">3,610,000 تومان - 3,630,000 تومان</p>
+                    </div>
+                </div>
+
+                <div class="border-gray-100 rounded-2xl w-[285px] h-[370px] border-2">
+                    <div>
+                        <img src="../photos/Samsung-Galaxy-M32-5G-2-1024x1024.jpg" onmouseover="src='../photos/Samsung-Galaxy-M32-5G-1-1024x1024.jpg'" onmouseout="src='../photos/Samsung-Galaxy-M32-5G-2-1024x1024.jpg'" class="cursor-pointer w-60 m-auto pt-4 transition-all ease-in-out hover:scale-110 duration-1000 " alt="">
+                    </div>
+                    <div class="px-4 pt-8">
+                        <a href="#"><h3 class="font-sans text-sm capitalize hover:text-gray-500">samsung galaxy m32 128GB</h3></a>
+                        <a href="#"><h3 class="text-sm hover:text-gray-500">سامسونگ  ام 32  128 گیگابایت</h3></a>
+                        <p class="text-sm text-red-600">5,620,000 تومان - 5,660,000 تومان</p>
+                    </div>
+                </div>
+
+                <div class="border-gray-100 rounded-2xl w-[285px] h-[370px] border-2">
+                    <div>
+                        <img src="../photos/Samsung-Galaxy-M52-5G-7-1024x1024.jpg" onmouseover="src='../photos/Samsung-Galaxy-M52-5G-1-1024x1024.jpg'" onmouseout="src='../photos/Samsung-Galaxy-M52-5G-7-1024x1024.jpg'" class="cursor-pointer w-60 m-auto pt-4 transition-all ease-in-out hover:scale-110 duration-1000 " alt="">
+                    </div>
+                    <div class="px-4 pt-8">
+                        <a href="#"><h3 class="font-sans text-sm capitalize hover:text-gray-500">samsung galaxy m52 5G 128GB</h3></a>
+                        <a href="#"><h3 class="text-sm hover:text-gray-500">سامسونگ  ام 52 5 جی 128 گیگابایت</h3></a>
+                        <p class="text-sm text-red-600">8,120,000 تومان - 8,160,000 تومان</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- xiaomi -->
+            <div class="w-full grid grid-rows-2 gap-0 mt-16">
+                <div class="w-full flex flex-start">
+                    <img src="../photos/mi-piyt4u98f3gygs2nagjagytap2eq10cxvqcxdelaq8.jpg" class="" alt="">
+                    <h4 class="uppercase text-2xl font-sans pr-6 pt-2 ">xiaomi</h4>
+                    <a href="#"><p class="text-base pt-3 pl-4 pr-8 hover:text-red-600">گوشی</p></a>
+                    <a href="#"><p class="text-base px-4 pt-3 hover:text-red-600">ایرپاد</p></a>
+                    <a href="#"><p class="pt-3 text-base px-4 hover:text-red-600">ساعت</p></a>
+                </div>
+                <div class="flex flex-start mt-2">
+                    <hr class="w-[12%] border-red-600 border-2 float-right">
+                    <hr class="w-[88%] border-gray-200 border-1.5 float-left ">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- iphone13 pro max -->
+    <section class="w-full bg-gradient-to-r from-stone-700 to-red-600 h-64 flex justify-center">
+        <div class="w-10/12 ">
+            <div class="grid grid-cols-2 place-items-start gap-72 w-full">
+                <div class="w-[400px] pt-16 ">
+                    <h2 class="text-2xl text-slate-50 float-right" >فروش ویژه <p class="font-sans float-left font-bold">iphone 13 pro max </p></h2>
+                    <button class="bg-stone-700 text-slate-50 text-base px-6 py-3  hover:bg-stone-800 transition-all ease-in rounded-3xl mt-8"> <i class="uil uil-angle-left"></i>مشاهده همه</button>
+                </div>
+                <div class="w-[500px] absolute top-[2450px] left-[0px] ">
+                    <img src="../photos/apple-iphone-13-pro-gold-02-550x550-1.png" alt="" class="w-96">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- online magazine -->
+    <section class="mt-16 w-full flex justify-center ">
+        <div class="w-10/12">
+            <div class="grid grid-rows-2 gap-1">
+                <div class="">
+                    <h3 class="text-xl">مجله آنلاین فروشگاه</h3>
+                </div>
+                <div class="">
+                    <hr class="border-red-600 border-2 w-40">
+                    <hr class="border-zinc-300  w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- the most -->
+    <section class="w-full flex justify-center mt-16">
+        <div class="w-10/12">
+            <div class="grid grid-rows-2 gap-1">
+                <div class="flex flex-start">
+                    <h3 class="text-2xl pl-4 font-light"> ترین های فروشگاه </h3>
+                    <h4 class="text-base px-3 text-red-600">پر فروش ترین ها</h4>
+                    <h4 class="text-base px-3 text-stone-600 hover:text-black cursor-pointer transition-all ease-in ">پر تخفیف ترین ها</h4>
+                    <h4 class="text-base px-3 text-stone-600 hover:text-black cursor-pointer transition-all ease-in">جدید ترین ها</h4>
+                </div>
+                <div class="">
+                    <hr class="border-red-600 border-2 w-40">
+                    <hr class="border-zinc-300  w-full">
+                </div>
+            </div>
+            <!-- phones -->
+            <div class="flex justify-between">
+                <div class="border-gray-100 rounded-2xl w-[285px] h-[400px] border-2">
+                    <div>
+                        <span class="bg-red-600 text-slate-50 px-3 py-0.5 z-30   rounded-2xl  text-sm ">3% -</span>
+                        <img src="../photos/4-2-plzjv0hf0r3uiscjjh4btj89xeh4tzqfxzm1zj9ha0.jpg" onmouseover="src='../photos/1-2-plzjuuudvqw4l4kqgeokeknid38xjt41x7p53vhubc.jpg'" onmouseout="src='../photos/4-2-plzjv0hf0r3uiscjjh4btj89xeh4tzqfxzm1zj9ha0.jpg'" class="cursor-pointer w-60 m-auto pt-4 transition-all ease-in-out hover:scale-110 duration-1000 " alt="">
+                    </div>
+                    <div class="px-4 pt-9">
+                        <a href="#"><h3 class="font-sans text-sm capitalize hover:text-gray-500">samsung galaxy a12 128GB</h3></a>
+                        <a href="#"><h3 class="text-sm hover:text-gray-500">سامسونگ گلکسی ای 12  128 گیگابایت</h3></a>
+                        <p class="float-right line-through text-sm text-gray-400">2,000,000</p>
+                        <p class="text-sm text-red-600">1,950,000 تومان</p>
+                    </div>
+                </div>
+
+                <div class="border-gray-100 rounded-2xl w-[285px] h-[400px] border-2">
+                    <div>
+                        <img src="../photos/7-5-1024x1024.jpg" onmouseover="src='../photos/1-13-1024x1024.jpg'" onmouseout="src='../photos/7-5-1024x1024.jpg'" class="cursor-pointer w-64 m-auto pt-8 transition-all ease-in-out hover:scale-110 duration-1000 " alt="">
+                    </div>
+                    <div class="px-4 pt-8">
+                        <a href="#"><h3 class="font-sans text-sm capitalize hover:text-gray-500">samsung galaxy s20 fE 5G 128GB</h3></a>
+                        <a href="#"><h3 class="text-sm hover:text-gray-500">سامسونگ گلکسی اس 20  اف ای 5 جی 128 </h3></a>
+                        <p class="text-sm text-red-600">12,600,000 تومان</p>
+                    </div>
+                </div>
+
+                <div class="border-gray-100 rounded-2xl w-[285px] h-[400px] border-2">
+                    <div>
+                        <img src="../photos/Samsung-Galaxy-S20-FE-1-1024x1024.jpg" onmouseover="src='../photos/Samsung-Galaxy-S20-FE-1-1024x1024.jpg'" onmouseout="src='../photos/Samsung-Galaxy-S20-FE-1-1024x1024.jpg'" class="cursor-pointer w-64 m-auto pt-8 transition-all ease-in-out hover:scale-110 duration-1000 " alt="">
+                    </div>
+                    <div class="px-4 pt-8">
+                        <a href="#"><h3 class="font-sans text-sm capitalize hover:text-gray-500">samsung galaxy s20 fE 4G 128GB</h3></a>
+                        <a href="#"><h3 class="text-sm hover:text-gray-500">سامسونگ  اس 20 5 اف ای 4 جی 128 گیگابایت</h3></a>
+                        <p class="text-sm text-red-600">10,980,000 تومان</p>
+                    </div>
+                </div>
+
+                <div class="border-gray-100 rounded-2xl w-[285px] h-[400px] border-2">
+                    <div>
+                        <span class="bg-red-600 text-slate-50 px-3 py-0.5 z-30   rounded-2xl  text-sm">5% -</span>
+                        <img src="../photos/5-3-plzkq23iqrlrz5959e7qo77c8jgk23zajnadlj8drs.jpg" onmouseover="src='../photos/1-3-plzkpsp4uf8wr1mssa5gz9kqaoqvx4xz6crisrmbi0.jpg'" onmouseout="src='../photos/5-3-plzkq23iqrlrz5959e7qo77c8jgk23zajnadlj8drs.jpg'" class="cursor-pointer w-60 m-auto pt-4 transition-all ease-in-out hover:scale-110 duration-1000 " alt="">
+                    </div>
+                    <div class="px-4 pt-10">
+                        <a href="#"><h3 class="font-sans text-sm capitalize hover:text-gray-500">pOKO x3 pro 256GB</h3></a>
+                        <a href="#"><h3 class="text-sm hover:text-gray-500">پوکو ایکس 256 گیگابایت</h3></a>
+                        <p class="line-through text-gray-400 text-sm float-right">2,000,000</p>
+                        <p class="text-sm text-red-600 float-right">1,900,000 تومان</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- social media -->
+    <section class="w-full flex justify-center bg-gradient-to-r from-stone-600 to-red-600 mt-20 pb-8">
+        <div class="w-10/12">
+            <div class="flex justify-between pt-12">
+                <div class="pt-40 w-[500px] mr-32">
+                    <p class="text-slate-50 ">با دنبال کردن ما در شبکه های اجتماعی از آخرین محصولات ما با خبر شوید، تحلیل انواع محصولات را مشاهده و با توجه به آن محصول مورد نظر خود را انتخاب کنید.</p>
+                    <br>
+                    <br>
+                    <ol>
+                        <li class="text-slate-50 list-disc">مقایسه محصولات و انتخاب راحت تر</li>
+                        <li class="text-slate-50 list-disc">آگاهی از آخرین محصولات</li>
+                        <li class="text-slate-50 list-disc">...</li>
+                    </ol>
+                    <div class="flex justify-evenly ml-28 mt-8">
+                        <div class="flex justify-between w-32 rounded-sm bg-red-400 cursor-pointer"><a class=" px-4 py-2 text-slate-50">اینستاگرام </a><i class="uil uil-instagram  pl-2 py-2 text-slate-50"></i></div>
+                        <div class="cursor-pointer flex justify-between w-32 rounded-sm bg-red-400"><a class="text-slate-50 px-4 py-2">تلگرام </a><i class="uil uil-telegram-alt text-slate-50 px-2 py-2"></i></div>
+                    </div>
+                </div>
+                <div>
+                    <img src="../photos/2523.png" class="w-[400px] ml-32" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="w-full  bg-stone-600 mb-0">
+        <div class="flex justify-center pt-12">
+            <div class="w-10/12">
+                <div class="w-full grid grid-cols-2 gap-96">
+                    <div class="flex justify-start pb-4">
+                        <ul class="w-44">
+                            <h3 class="text-slate-50 text-xl pb-2 pr-6">راهنمای مشتریان</h3>
+                            <li class="text-stone-300 py-2 "><i class="uil uil-angle-left pl-2"></i><a href="#">ثبت سفارش</a></li>
+                            <li class="text-stone-300 py-2"><i class="uil uil-angle-left pl-2"></i><a href="#">روش های پرداخت</a></li>
+                            <li class="text-stone-300 py-2"><i class="uil uil-angle-left pl-2"></i><a href="#">روش های ارسال</a></li>
+                            <li class="text-stone-300 py-2"><i class="uil uil-angle-left pl-2"></i><a href="#">پیگیری سفارشات</a></li>
+                            <li class="text-stone-300 py-2"><i class="uil uil-angle-left pl-2"></i><a href="#">شرایط ضمانت و گارانتی محصولات</a></li>
+                        </ul>
+                        <ul class="mr-8">
+                            <h3 class="text-slate-50 text-xl pb-2 pr-6">موبایل بهنام</h3>
+                            <li class="text-stone-300 py-2"><i class="uil uil-angle-left pl-2"></i><a href="#">درباره ما</a></li>
+                            <li class="text-stone-300 py-2"><i class="uil uil-angle-left pl-2"></i><a href="#">تماس با ما</a></li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <p class="text-slate-50 text-lg ">اعتماد شما افتخار ماست</p>
+                        <img src="../photos/logo.png" class="pt-8" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="border-stone-400">
+        <p class="text-stone-300 pt-3 pb-3 pr-36 pb-2">کلیه حقوق برای فروشگاه موبایل بهنام محفوظ می باشد.</p>
+        <a href="#" class="w-12 h-12 bg-slate-50 rounded-full pt-0 fixed transition-all ease-in-out duration-500 bottom-4 right-[1360px] z-50  to-top" id="demo"><i class="uil uil-angle-up text-stone-600 text-4xl pr-1.5"></i></a>
+    </footer>
+    
+    
+
+
+    <script src="js.js"></script>
+    <script>
+    </script>
+</body>
+</html>
